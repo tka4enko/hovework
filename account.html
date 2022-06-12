@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>my shop</title>
+		<style>
+			.header li {
+				display: inline-block;
+				margin-right: 20px;
+
+			}
+			.header nav {
+				display: inline-block;
+				font-size: 30px;
+			}
+			.header a {
+				color: black;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			.header .link a {
+				color: orange;
+				border-bottom: 2px solid orange;
+
+			}
+				.header .logo {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.main {
+				text-align: center;
+				font-size: 30px;
+
+			}
+			.main div label {
+				color: white;
+				background-color: orange;
+			}
+			.main div input {
+				background-color: orange;
+				border: 2px solid red;
+				height: 30px;
+				width: 300px;
+				margin-top: 10px;
+				margin-bottom: 20px;
+
+			}
+			.main .input input {
+				font-size: 20px;
+				color: #18a718;
+				background-color: #e1e1e1;
+				border: 2px solid #18a718;
+				height: 40px;
+				width: 150px;
+				margin-top: 30px;
+				margin-bottom: 50px;
+			}
+			.footer div {
+				background-image: url(img/f.jpg);
+				width: 1300px;
+				height: 400px;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.footer ul {
+				text-align: center;
+				list-style-type: none;
+			}
+			.footer a {
+				font-size: 25px;
+				color: black;
+				font-weight: bold;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<a href="index.html" class="logo"><img src="img/images.png" width="100"></a>
+			<nav>
+				<ul>
+					<li class="link">
+						<a href="index.html">Shop</a>
+					</li>
+					<li>
+						<a href="about.html">About shop</a>
+					</li>
+					<li>
+						<a href="account.html">Купить</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<form action="index.html">
+				<div>
+					<label>Имя</label>
+				</div>			
+				<div>
+					<input type="text">
+				</div>	
+				<div>
+					<label>Телефон</label>
+				</div>
+				<div>
+					<input type="number">
+				</div>
+				<div>
+					<label>Кросовки</label>
+				</div>
+				<select>
+					<option value="Nike Dunk Low">Nike Dunk Low</option>
+					<option value="Nike SB Dunk Panda">Nike SB Dunk Panda</option>
+					<option value="Nike Dunk Retro">Nike Dunk Retro</option>
+					<option value="Nike Dunk Hight">Nike Dunk Hight</option>
+				</select>
+				<div class="input">
+					<input type="submit" value="Заказать">
+				</div>
+			</form>
+		</main>
+		<footer class="footer">
+			<div>
+				<nav class="footer-nav">
+					<ul>
+						<li>
+							<a href="index.html">Shop</a>
+						</li>
+						<li>
+							<a href="about.html">About shop</a>
+						</li>
+						<li>
+							<a href="account.html">Купить</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</body>
+</html>

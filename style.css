@@ -1,0 +1,225 @@
+body {
+	margin: 0;
+	color: #000;
+}
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2em;
+}
+.btn {
+	background: darkgoldenrod;
+	border: 1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 16px;
+}
+.btn.lg {
+	background: darkgoldenrod;
+	border: 1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 50px;
+	display: inline-block;
+	font-size: 20px;
+}
+.btn:hover {
+	background: #fff;
+	border: 1px solid darkgoldenrod;
+	color: darkgoldenrod;
+
+}
+a {
+	color: inherit;
+}
+* {
+	box-sizing: border-box;
+}
+.section {
+
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.header {
+	font-size: 0;
+	    background: darkgoldenrod;
+}
+.header-login {
+	display: inline-block;
+	width: 10%;
+	text-align: right;
+}
+img {
+	max-width: 100%;
+}
+.header-logo {
+	max-width: 10%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-nav {
+	vertical-align: middle;
+	width: 80%;
+	display: inline-block;
+	color: #fff;
+}
+.nav {
+	display: inline-block;
+}
+.header-nav .nav > ul > li{
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	padding: 30px 10px;
+}
+.nav li a {
+	text-decoration: none;
+}
+.nav li a:hover {
+	text-decoration: underline;
+	color: grey;
+}
+span.arrow{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: .1;
+	margin-left: 5px;
+}
+
+.sub-menu {
+	display: none;
+}
+.sub-menu {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	padding: 2px;
+	border: 2px solid #000;
+	border-top: none;
+	padding: 10px;
+	margin: 0;
+	list-style: none;
+	font-size: 16px;
+	min-width: 400px;
+	background: darkgoldenrod;
+}
+.sub-menu {
+
+}
+.sub-menu li {
+	margin-bottom: 20px;
+}
+.nav li:hover .sub-menu {
+	display: block;
+}
+.section {
+	padding: 50px 0;
+}
+.section-hero .row {
+	margin: 0 -20px;
+	font-size: 0;
+ }
+.section-hero .col {
+	display: inline-block;
+	width: 50%;
+	padding: 0 20px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.section-hero h1 {
+	margin-top: 0;
+}
+.section-hero video {
+	width: 100%;
+}
+.section-products {
+	font-size: 0;
+}
+.section-products .section-title {
+	font-size: 16px;
+}
+.section-products .section-title p{
+	color: grey;
+	margin-bottom: 50px;
+}
+.section-products .section-title h2{
+	color: darkgoldenrod;
+	margin: 0;
+}
+.section-products .col {
+	display: inline-block;
+	width: 33.3%;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+.section-products .row {
+	margin: 0 -20px;
+}
+.section-products .col {
+	vertical-align: top;
+}
+.card {
+	text-decoration: none;
+}
+.card-img img{
+	border-radius: 5px;
+}
+.card-img{
+	margin-bottom: 10px;
+}
+.card-title {
+	font-size: 20px;
+}
+.card-price {
+	font-size: 30px;
+	color: darkgoldenrod;
+}
+.section-shop-now {
+	margin-top: 40px;
+	text-align: center;
+}
+.footer {
+	font-size: 0;
+	padding: 20px 0;
+	background: darkgoldenrod;
+}
+.footer-logo {
+	display: inline-block;
+	width: 10%;
+}
+.footer-nav {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	width: 90%;
+	vertical-align: middle;
+	text-align: right;
+}
+.footer-nav .nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-nav .nav .navbar {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 20px;
+	text-align: right;
+}
+.footer-nav .nav .navbar li {
+	margin-bottom: 10px;
+}
